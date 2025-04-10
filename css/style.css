@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+}
+.top-part {
+  background-color: #0a0a0a;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-header-para {
+  color: #ffffff;
+  margin: 0 auto;
+}
+.bottom-part {
+  width: 100%;
+  max-width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  flex-wrap: nowrap;
+}
+
+.header-ul {
+  display: flex;
+  gap: 10px;
+}
+.burger-icon {
+  display: none;
+}
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #21243d;
+  border-radius: 2px;
+}
+.btn-account {
+  background-color: #0a0a0a;
+  width: 91px;
+}
+.btn-cart {
+  background-color: #3a3a3a;
+  width: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttoms button {
+  color: #ffffff;
+  border-radius: 4px;
+  height: 28px;
+}
+.buttoms {
+  display: flex;
+  gap: 10px;
+}
+/* the first section  */
+.take-your-sound {
+  background-image: url(../images/background-headphones.jpg);
+  height: 70vh;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.take-your-sound-title {
+  font-size: 35px;
+  font-weight: 500;
+  color: #ffffff;
+}
+h1 {
+  font-size: 82px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  line-height: 100px;
+  letter-spacing: 3px;
+  width: 528px;
+}
+.take-your-sound-btn {
+  width: 150px;
+  height: 34px;
+  background-color: #ffffff;
+  color: #0a0a0a;
+  border-radius: 134px;
+  font-size: 20px;
+}
+/* services */
+.services {
+  max-width: 903px;
+  height: 123px;
+  margin: 42px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.return-icon {
+  transition: transform 0.3s ease;
+}
+.return-icon:hover {
+  transform: rotate(180deg);
+}
+
+@keyframes show {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.home-icon {
+  animation: show 3s ease-in-out;
+}
+
+@keyframes move {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+.transport:hover {
+  animation: move 0.6s ease;
+}
+
+/* Featured products */
+.featured-products {
+  width: 330px;
+  height: 75px;
+  margin: 44px auto;
+}
+.ft-pr-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.fr-pr-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.fr-pr-li a {
+  font-size: 16px;
+  color: #df6134;
+}
+.products {
+  max-width: 1270px;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  width: 283px;
+  height: 435px;
+}
+.item-1 {
+  background-image: url(../images/apple-watch.jpg);
+}
+.item-2 {
+  background-image: url(../images/buds.png);
+}
+.item-3 {
+  background-image: url(../images/headphones-disc.jpg);
+}
+.item-4 {
+  background-image: url(../images/phone.png);
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  height: 283px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.item-title {
+  color: #141b12;
+  font-size: 24px;
+  font-weight: 500;
+}
+.item-para {
+  color: #2fa013;
+  font-size: 14px;
+}
+span {
+  color: #494d48;
+  margin-left: 7px;
+}
+.more-details {
+  background-color: #fd6f5e;
+  width: 160px;
+  height: 40px;
+  border-radius: 34px;
+  font-size: 14px;
+  color: #ffffff;
+}
+button {
+  transition: transform 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.8);
+}

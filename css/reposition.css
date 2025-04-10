@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .burger-icon {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  h1 {
+    font-size: 50px;
+    width: 400px;
+  }
+  .products {
+    row-gap: 10px;
+  }
+  .card {
+    width: calc(50% - 5px);
+  }
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4 {
+    border-radius: 34px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .buttoms {
+    display: none;
+  }
+  h1 {
+    width: 300px;
+  }
+  .service-para {
+    display: none;
+  }
+  .card {
+    width: 100%;
+  }
+}
