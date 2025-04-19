@@ -151,18 +151,18 @@ h1 {
   height: 75px;
   margin: 44px auto;
 }
-.ft-pr-title {
+.futured-products-title {
   font-size: 30px;
   font-weight: 700;
   color: black;
   text-align: center;
   margin-bottom: 14px;
 }
-.fr-pr-ul {
+.futured-products-ul {
   display: flex;
   justify-content: space-between;
 }
-.fr-pr-li a {
+.futured-product-li a {
   font-size: 16px;
   color: #df6134;
 }
@@ -175,7 +175,7 @@ h1 {
 }
 .card {
   width: 283px;
-  height: 435px;
+  min-height: 435px;
 }
 .item-1 {
   background-image: url(../images/apple-watch.jpg);
@@ -243,7 +243,7 @@ button:active {
 .about-products {
   background-image: url(../images/girlbackground.png);
   max-width: 1583px;
-  height: 1252px;
+  min-height: 1252px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
